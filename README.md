@@ -8,6 +8,7 @@
 | --- | --- | --- |
 | 编码+概念记忆生成 | 把「编码物 + 概念」变成好记、能准确还原的记忆画面；一条一条生成 | `skills/mnemonic-encoding/` |
 | 音乐视频创作 | 从创意或歌曲出发，创作歌词、生成歌曲、制作 MV，按需走现有 workflow 投稿 | `skills/music-video-studio/` |
+| 独立判断与反虚假平衡 | 跨领域分析中校准证据、检验反例相关性，避免迎合及机械平衡 | `skills/independent-judgment/` |
 
 ## 新增技能
 
