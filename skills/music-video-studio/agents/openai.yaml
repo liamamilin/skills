@@ -1,0 +1,4 @@
+interface:
+  display_name: "音乐视频创作"
+  short_description: "按需挖掘创意、操作 Mureka 创作歌曲，并把歌曲与歌词制成音乐视频"
+  default_prompt: "使用 $music-video-studio，按我提供的创意或歌曲和歌词，推进到可以观看的音乐视频。"

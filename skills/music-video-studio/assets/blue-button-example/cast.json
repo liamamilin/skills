@@ -1,0 +1,18 @@
+{
+  "assistant": {
+    "id": "claude",
+    "display_name": "Claude",
+    "role": "对话助手与执行 Agent"
+  },
+  "mascot": {
+    "asset": "pet.png",
+    "represents": "claude",
+    "description": "用户提供的 Claude 像素宠物衍生图"
+  },
+  "agent_labels": [
+    "Agent",
+    "Agent 1",
+    "Agent 2"
+  ],
+  "agent_labels_meaning": "同一 Claude 角色的执行光标，不代表其他厂商品牌"
+}

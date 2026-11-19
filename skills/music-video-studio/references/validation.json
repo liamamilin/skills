@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-10",
+  "prepare_project": "passed on user-supplied MP3; decoded 73.974s",
+  "repeat_prepare": "refused to overwrite existing directory",
+  "align_lyrics": {
+    "actual_local_model_run": "passed",
+    "phrases": 12,
+    "last_phrase": {
+      "text": "网站呢？",
+      "start": 52.88,
+      "end": 53.6,
+      "timing": "machine_alignment_unreviewed"
+    },
+    "listening_review": "not_performed"
+  },
+  "example_reproduction": {
+    "passed": true,
+    "issues": [],
+    "video_sha256": "b1faa83d1f004a4b109bdff0b0bff8873982b6288680c12aab90bd77bbdd19ad",
+    "size": [
+      1920,
+      1080
+    ],
+    "fps": "30/1",
+    "video_duration": 69.0,
+    "audio_duration": 69.0,
+    "prefix_audio_correlation": 0.9993339883317034,
+    "decode_returncode": 0,
+    "visual_review": "not_performed_by_script",
+    "listening_review": "not_performed_by_script",
+    "cast_scope": "manifest consistency only; inspect rendered identities separately"
+  },
+  "behavior_checks": {
+    "brand_conflict": "correctly_rejected",
+    "cue_outside_cut": "correctly_rejected",
+    "text_mismatch": "correctly_rejected",
+    "overlap": "correctly_rejected",
+    "consistent_cast": "passed",
+    "aligned_repetition": [
+      {
+        "text": "改回来",
+        "start": 1.0,
+        "end": 2.0,
+        "timing": "machine_alignment_unreviewed"
+      },
+      {
+        "text": "改回来",
+        "start": 3.0,
+        "end": 4.0,
+        "timing": "machine_alignment_unreviewed"
+      }
+    ]
+  },
+  "mureka_calls_during_validation": 0,
+  "publication_calls_during_validation": 0,
+  "application_or_scheduler_changes": false
+}

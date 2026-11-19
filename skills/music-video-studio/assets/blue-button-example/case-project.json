@@ -1,0 +1,193 @@
+{
+  "title": "只想要个蓝按钮",
+  "format": "1920x1080, 30fps, landscape",
+  "source_audio": "song.mp3",
+  "source_sha256": "3266cd002f70d2095e72c61be51b27220bccc6170196ff9954ac65cba1c894e7",
+  "audio_edit": "Keep original source [0, 69.0s) at 1x. Music naturally decays near 68.6s; separate appended spoken notice starts near 70.9s and is excluded.",
+  "creative_direction": "Continuous desktop farce: recognizable site components drive jokes; Claude is the conversation window; Agent labels belong to acting cursors; mascot drags or reacts to actual UI objects.",
+  "palette": {
+    "paper": "#F4F2EC",
+    "ink": "#171827",
+    "button": "#275BFF",
+    "chorus": "#211039",
+    "accent": "#D5FF6B"
+  },
+  "font_paths": [
+    "/System/Library/Fonts/Hiragino Sans GB.ttc",
+    "/System/Library/Fonts/Supplemental/Arial Bold.ttf"
+  ],
+  "fonts_note": "Uses local macOS system fonts; font binaries not redistributed.",
+  "mascot_reference": "User-provided Claude terminal screenshot. Transparent derivative generated with ImageGen.",
+  "lyrics_source": "User-confirmed complete lyrics from this conversation",
+  "timing_method": "Local Qwen3 phrase alignment against the supplied MP3, no even-spacing estimates",
+  "listening_review": "not_performed; original audio and established phrase timing reused",
+  "render_command": "python3 render_mv.py",
+  "story": [
+    {
+      "start": 0,
+      "settled": 0.35,
+      "cue": 0,
+      "hold_end": 4,
+      "end": 4,
+      "action": "Only one button selected"
+    },
+    {
+      "start": 4,
+      "settled": 4.35,
+      "cue": 4,
+      "hold_end": 8.1,
+      "end": 8.1,
+      "action": "Native Claude conversation"
+    },
+    {
+      "start": 8.1,
+      "settled": 8.45,
+      "cue": 8.1,
+      "hold_end": 15.2,
+      "end": 15.2,
+      "action": "Website and agent task panel; scope expands"
+    },
+    {
+      "start": 15.2,
+      "settled": 15.549999999999999,
+      "cue": 15.2,
+      "hold_end": 18.56,
+      "end": 18.56,
+      "action": "Button color inspector close-up"
+    },
+    {
+      "start": 18.56,
+      "settled": 18.91,
+      "cue": 18.56,
+      "hold_end": 22.08,
+      "end": 22.08,
+      "action": "Mascot rearranges site cards"
+    },
+    {
+      "start": 22.08,
+      "settled": 22.43,
+      "cue": 22.08,
+      "hold_end": 25.44,
+      "end": 25.44,
+      "action": "Menu dragged left and login escapes right"
+    },
+    {
+      "start": 25.44,
+      "settled": 25.790000000000003,
+      "cue": 25.44,
+      "hold_end": 28,
+      "end": 28,
+      "action": "Agent operation log over absurd layout"
+    },
+    {
+      "start": 28,
+      "settled": 28.35,
+      "cue": 28,
+      "hold_end": 30.96,
+      "end": 30.96,
+      "action": "Undo operation makes the site worse"
+    },
+    {
+      "start": 30.96,
+      "settled": 31.310000000000002,
+      "cue": 30.96,
+      "hold_end": 34.88,
+      "end": 34.88,
+      "action": "Login grows into an oversized hero"
+    },
+    {
+      "start": 34.88,
+      "settled": 35.230000000000004,
+      "cue": 34.88,
+      "hold_end": 37.84,
+      "end": 37.84,
+      "action": "Two agents tug at the same site"
+    },
+    {
+      "start": 37.84,
+      "settled": 38.190000000000005,
+      "cue": 37.84,
+      "hold_end": 44,
+      "end": 44,
+      "action": "Site elements fall out; blue button remains"
+    },
+    {
+      "start": 44,
+      "settled": 44.35,
+      "cue": 44,
+      "hold_end": 46.96,
+      "end": 46.96,
+      "action": "Agent finalizes task"
+    },
+    {
+      "start": 46.96,
+      "settled": 47.31,
+      "cue": 46.96,
+      "hold_end": 49.4,
+      "end": 49.4,
+      "action": "Agent celebrates completion"
+    },
+    {
+      "start": 49.4,
+      "settled": 49.75,
+      "cue": 49.4,
+      "hold_end": 52.88,
+      "end": 52.88,
+      "action": "User searches empty site"
+    },
+    {
+      "start": 52.88,
+      "settled": 53.230000000000004,
+      "cue": 52.88,
+      "hold_end": 57,
+      "end": 57,
+      "action": "Question lands; mascot sneaks off"
+    },
+    {
+      "start": 57,
+      "settled": 57.35,
+      "cue": 57,
+      "hold_end": 61,
+      "end": 61,
+      "action": "Claude response joke"
+    },
+    {
+      "start": 61,
+      "settled": 61.35,
+      "cue": 61,
+      "hold_end": 65,
+      "end": 65,
+      "action": "Requested versus actual result"
+    },
+    {
+      "start": 65,
+      "settled": 65.35,
+      "cue": 65,
+      "hold_end": 67,
+      "end": 67,
+      "action": "Only button remains; next time I will do it myself"
+    },
+    {
+      "start": 67,
+      "settled": 67.35,
+      "cue": 67,
+      "hold_end": 69,
+      "end": 69,
+      "action": "Title and closing question"
+    }
+  ],
+  "version": 4,
+  "changes": [
+    "Removed floating brand pills and generic AI node graph",
+    "Changed Chinese font to Hiragino Sans GB W6 for consistent UI typography",
+    "Added site/task split screen during intro; a small request becomes a full-page operation",
+    "Close-up menu pull and login escape",
+    "Distinct undo stages: misarrangement, oversized login, two competing agents, page falling away",
+    "Mascot exits on the final question; instrumental tail continues with chat rebuttal and requested-vs-actual result",
+    "统一对话窗名称为 Claude；角色身份与橙色宠物一致，渲染读取同一角色表",
+    "剪去歌曲自然结束后的独立口播尾段；片尾标题提前至 67 秒，不添加说明字幕。"
+  ],
+  "review_scope": "Contact-sheet composition, adjacent action frames, encoded samples and complete decode; not a full real-time auditory review.",
+  "cast_manifest": "cast.json",
+  "future_tail_handling": "检查每首歌实际尾部结构；仅剪用户要求删除的附加口播，不按固定秒数截断，不删除歌词中的 AI 内容。"
+}
